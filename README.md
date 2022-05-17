@@ -1,6 +1,7 @@
-### _**Note**: You can click on the pencil at the top of any README files to learn how those files were constructed._
+### _**Note**: You can click on the pencil icon at the top of any README files to learn how those files were constructed._
+___
 # Headers
-The main header is created by using "`#`" followed by an space at the beginning. 
+The main header is created by using "`#`" followed by an space at the beginning of the line. 
 The Sub-headings are followed by the extra number of #s.  
 For example: 
 # Heading 1
@@ -9,31 +10,38 @@ For example:
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+___
 
 # Emphasizing the text
 
 ## Italicize
 
-You can *italicize* text by using either \*\[sometext in here\]\* or \_\[sometext in here\]\_. 
+You can *italicize* text by using either \*\[sometext in here\]\* or \_\[sometext in here\]\_.  
+The Hotkey for Italicizing the text is `Ctrl+i` i.e. select the text you would like to italicize and press `Ctrl+i`.
 
 ## Bold
 
-You can **bold out** text by using either \*\*\[sometext in here\]\*\* or \_\_\[sometext in here\]\_\_.
+You can **bold out** text by using either \*\*\[sometext in here\]\*\* or \_\_\[sometext in here\]\_\_.  
+The Hotkey to Bold Out the text is `Ctrl+b`.
+___
 
 # Escaping 
 
 The back-slash "`\`" is used as the escape character in markdown files.   
 For example: `**bold**` would generate **bold** as the output in the markdown files. For \*\*bold** to be the output in the markdown files, you have to escape the asterisks(\*) before the word(bold) by putting backslash(`\`) before them i.e. `\*\*bold**`
+___
 
 # Links
 
 You can use \[Description text\]\(URL\) to add links. For example:- [Nianfo Right Now.](https://www.youtube.com/watch?v=hxxFvAj-Y98&t=20s)
+___
 
 # Online Images
 
 You can use \!\[Alternative Text\]\(URL of the image\) to insert images in your README.MD 
 
 ![Amitabha Buddha!](https://shaolin.org/images-answers/ans11a/amitabha01.jpg)
+___
 
 # Unordered list and Nested List
 
@@ -53,6 +61,7 @@ You can make nested lists by indenting each item in the sublist by four spaces b
     2. Item No. 3.2
     3. Item No. 3.3
 4. Item No. 4
+___
 
 # Blockquotes
 
@@ -63,4 +72,57 @@ _The 18th Vow of Amitabha Buddha, The Fundamental Vow:_
 >__If, when I attain Buddhahood, sentient beings in the lands of the ten quarters who sincerely and joyfully entrust themselves to me,  
 >desire to be born in my land, and call my Name, even ten times, should not be born there, may I not attain perfect Enlightenment.  
 >Excluded, however, are those who commit the five gravest offences and abuse the right Dharma.__
+___
 
+# Creating and highlighting code blocks
+
+## Fenced Code Blocks
+You can create fenced code blocks by placing triple backticks ` ``` ` before and after the code block. It is recommended to place a blank line before and after code blocks to make the raw formatting easier to read.  
+
+To display triple backticks in a fenced code block, wrap them inside quadruple backticks. i.e
+`````
+````
+```
+   
+   some code in here {}
+   
+```
+````
+`````  
+
+would generate:
+````
+```
+   
+   some code in here {}
+   
+```
+````
+
+## Syntax Highlighting
+You can add an optional language identifier to enable syntax highlighting in your fenced code block.
+
+For example, to syntax highlight batch code:
+
+````
+```batch
+
+@echo off
+set /p name="What is your name: "
+echo The name you have entered is %name%.
+
+```
+````
+
+will give the output:
+```batch
+
+@ECHO OFF
+SETLOCAL
+CLS
+SET /p name="What is your name: "
+ECHO The name you have entered is !name!.
+EXIT
+
+```
+___
