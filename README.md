@@ -19,3 +19,9 @@ The back-slash "\" is used to as the escape character in markdown files.
 # Links
 
 You can use \[Description text\]\(URL\) to add links. For example:- [Practice typing right now.](https://monkeytype.com)
+
+# Online Images
+
+You can use \!\[Alternative Text\]\(URL of the image\) to insert images in your README.MD 
+
+![Github Logo](https://www.influxdata.com/wp-content/uploads/GitHub-logo.jpg)
