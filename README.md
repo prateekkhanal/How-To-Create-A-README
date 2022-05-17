@@ -4,12 +4,12 @@ ___
 The main header is created by using "`#`" followed by an space at the beginning of the line. 
 The Sub-headings are followed by the extra number of #s.  
 For example: 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
 ___
 
 # Styling Text
@@ -35,7 +35,7 @@ _You can nest __Bold text__ inside Italic sentence/block_ or ___Italicize text__
 ## Paragraph & Line Break
 
 If you simply hit `<return>` key after full stop or after the end of the sentence, you won't be getting the same result in the output. 
-To break the line in markdown files, you must have at least two `<spaces>` before you hit the `<return>` key.  
+To break the line in markdown files, you must have at least two `<space>`es before you hit the `<return>` key.  
 And two create a new paragraph, you must hit the `<return>` key twice CONSECUTIVELY. 
 ___
 
@@ -50,7 +50,7 @@ ___
 You can use the syntax \[Description text\]\(URL\) to add links. For example:- [Nianfo Right Now.](https://www.youtube.com/watch?v=hxxFvAj-Y98&t=20s)
 ___
 
-# Online Images
+# Images
 
 You can use the syntax \!\[Alternative Text\]\(URL of the image\) to insert images in your README.MD 
 
@@ -160,4 +160,13 @@ would render:
 |:--------------------|-------:|
 |Sairaj Timilsina | 4.0 |
 | Manish Karki | 3.8 |
+___
+
+# Using emoji
+
+You can add emoji to your writing by typing `:EMOJICODE:`.
+Typing `:` will bring up a list of suggested emoji. The list will filter as you type, use up and down arrow to navigate between your search suggestions, and once you find the emoji you're looking for, press Tab or Enter to complete the highlighted result.  
+For a full list of available emoji and codes, check out the [Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).  
+
+For example: \:smile will bring 😄 emoji, \:disappointed will bring 😞 emoji.
 ___
