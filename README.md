@@ -1,4 +1,4 @@
-### _**Note**: You can click on the pencil icon at the top of any README files to learn how those files were constructed._
+### _**Note**: You can click `<>` at the top of the file to disable Markdown rendering and view the source of anyone's README instead ._
 ___
 # Headers
 The main header is created by using "`#`" followed by an space at the beginning of the line. 
@@ -12,17 +12,31 @@ For example:
 ###### Heading 6
 ___
 
-# Emphasizing the text
+# Styling Text
 
 ## Italicize
 
-You can *italicize* text by using either \*\[sometext in here\]\* or \_\[sometext in here\]\_.  
+You can *italicize* text by using either `*[sometext in here]*` or `_[sometext in here]_.`  
 The Hotkey for Italicizing the text is `Ctrl+i` i.e. select the text you would like to italicize and press `Ctrl+i`.
 
 ## Bold
 
-You can **bold out** text by using either \*\*\[sometext in here\]\*\* or \_\_\[sometext in here\]\_\_.  
+You can **bold out** text by using either `**[sometext in here]**` or `__[sometext in here]__`.  
 The Hotkey to Bold Out the text is `Ctrl+b`.
+
+## Strikethrough
+
+You can ~~Strike through~~ text by using `~~[strike_through_text]~~.`
+
+## Both(Bold and Italic)
+
+_You can nest __Bold text__ inside Italic sentence/block_ or ___Italicize text__ inside the Bold sentence/block__ as well.
+
+## Paragraph & Line Break
+
+If you simply hit `<return>` key after full stop or after the end of the sentence, you won't be getting the same result in the output. 
+To break the line in markdown files, you must have at least two `<spaces>` before you hit the `<return>` key.  
+And two create a new paragraph, you must hit the `<return>` key twice CONSECUTIVELY. 
 ___
 
 # Escaping 
@@ -33,19 +47,19 @@ ___
 
 # Links
 
-You can use \[Description text\]\(URL\) to add links. For example:- [Nianfo Right Now.](https://www.youtube.com/watch?v=hxxFvAj-Y98&t=20s)
+You can use the syntax \[Description text\]\(URL\) to add links. For example:- [Nianfo Right Now.](https://www.youtube.com/watch?v=hxxFvAj-Y98&t=20s)
 ___
 
 # Online Images
 
-You can use \!\[Alternative Text\]\(URL of the image\) to insert images in your README.MD 
+You can use the syntax \!\[Alternative Text\]\(URL of the image\) to insert images in your README.MD 
 
 ![Amitabha Buddha!](https://shaolin.org/images-answers/ans11a/amitabha01.jpg)
 ___
 
 # Unordered list and Nested List
 
-You can use * followed by an space at the beginning of the line to make a bullet point infront of the list items. 
+You can use `*` or `-` followed by an space at the beginning of the line to make a bullet point infront of the list items. 
 * List Item 1
 * List Item 2
 * List Item 3
@@ -126,3 +140,5 @@ EXIT
 
 ```
 ___
+
+
