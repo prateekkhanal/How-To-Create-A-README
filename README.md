@@ -39,9 +39,9 @@ To break the line in markdown files, you must have at least two `<spaces>` befor
 And two create a new paragraph, you must hit the `<return>` key twice CONSECUTIVELY. 
 ___
 
-# Escaping 
+# Escaping
 
-The back-slash "`\`" is used as the escape character in markdown files.   
+To ignore markdown formatting, back-slash "`\`" is used as the escape character.   
 For example: `**bold**` would generate **bold** as the output in the markdown files. For \*\*bold** to be the output in the markdown files, you have to escape the asterisks(\*) before the word(bold) by putting backslash(`\`) before them i.e. `\*\*bold**`
 ___
 
@@ -141,4 +141,23 @@ EXIT
 ```
 ___
 
+# Creating Tables
+You can create tables with pipes `|` and hyphens `-`. Hyphens are used to create each column's header, while pipes separate each column.  
+You must include a blank line before your table in order for it to correctly render. The pipes on either end of the table are optional.   
+Cells can vary in width and do not need to be perfectly aligned within columns. There must be at least three hyphens in each column of the header row.  
+You can align text to the left, right, or center of a column by including colons : to the left, right, or on both sides of the hyphens within the header row.
+To include a pipe `|` as content within your cell, use a `\` before the pipe to escape it:
 
+For eg:
+```
+|Name of the Student | Grades|
+|:--------------------|-------:|
+|Sairaj Timilsina | 4.0 |
+| Manish Karki | 3.8 |
+```
+would render:
+|Name of the Student | Grades|
+|:--------------------|-------:|
+|Sairaj Timilsina | 4.0 |
+| Manish Karki | 3.8 |
+___
